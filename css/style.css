@@ -1,0 +1,296 @@
+body {
+    padding: 80px 0px 0px 0px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 0px 30px;
+
+    background: linear-gradient(135deg, #dcf4fc, #d4f1f4);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* LOGO */
+.title {
+    width: 180px;
+    height: 70px;
+
+    text-align: center;
+    font-size: 45px;
+    font-family: dancing script, arial;
+}
+
+/* ICON */
+
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 70px;
+    width: 45%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+/* LOGIN */
+.login img {
+    width: 27px;
+    height: 27px;
+    margin: 10px;
+}
+
+.login-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid #c4b4fc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.login a:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* SEARCH */
+
+.search-bar {
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+
+.search input {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* 
+.Check-in,
+.Check-out,
+.room-guest {
+    width: 160px;
+    height: 100px;
+    
+} */
+/* 
+.Check-in p,
+.Check-out p {
+    color: black;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+} */
+
+.Check-in input,.Check-out input {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.room-guest {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-guest p {
+    color: black;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+
+select {
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.search-icon{
+    width: 120px;
+    height: 75px;
+    background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.search-icon:hover{
+    box-shadow: 0px 8px 16px rgba(45, 44, 103, 0.2);
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    margin: 3px auto 3px auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .Destination{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.To-title{
+    width: 400px;
+}
+
+.To-title p{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.To-work p{
+    padding: 10px 0px;
+}
+
+.To-us p{
+    padding: 10px 0px;
+}
+
+.To-places p{
+    padding: 10px 0px;
+}
+
+.To-work p:hover,.To-us p:hover,.To-places p:hover{
+    cursor: pointer;
+    text-decoration: underline white;
+}
+
+/* Offer section */
+.offer{
+    width: 90%;
+    background-color:rgb(230,230,230);
+    margin: 30px 70px;
+    border-radius: 10px;
+}
+
+.block1{
+    display: flex;
+}
+
+.block2{
+    display: flex;
+}
+
+.hotel1 ,.hotel2 ,.hotel3 , .hotel4 ,.hotel5 , .hotel6{
+    width: 421px;
+    height: 500px;
+    background-color:white;
+    margin: 16px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    
+}
+
+.hotel1 img ,.hotel2 img ,.hotel3 img , .hotel4 img ,.hotel5 img , .hotel6 img{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hotel1 h2 ,.hotel2 h2 ,.hotel3 h2 , .hotel4 h2 ,.hotel5 h2 , .hotel6 h2{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.hotel1 p ,.hotel2 p ,.hotel3 p , .hotel4 p ,.hotel5 p , .hotel6 p{
+    margin: 15px 5px;
+}
+
+.name{
+    padding: 15px 15px ;
+}
+
+.hotel1 img:hover ,.hotel2 img:hover ,.hotel3 img:hover, .hotel4 img:hover ,.hotel5 img:hover, .hotel6 img:hover{
+    box-shadow: 2px 16px 32px rgba(10, 10, 10, 0.15);
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg, #21D4FD , #B721FF );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.form{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    outline: 2px solid black;
+    border-radius: 30px;   
+    /* margin-top: 5px; */
+    text-align: center;
+    /* margin: auto; */
+    
+}
+
+form{
+    margin-left: 30px;
+}
+
+.head{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+label{
+ color:white;
+ font-weight: 700;
+ font-size: 20px;
+ /* display: inline-block; */
+ /* margin-top: 15px; */
+}
+
+.name ,.password{
+    padding-right: 250px;
+}
+
+.name_input , .number_input, .password_input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.number{
+    padding-right: 110px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 255, 0.032);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover{
+    border: 2px dotted black;
+}
+
+.condition{
+    font-size: 12px;
+}
+
+.checkbox{
+    width: 11px;
+    height: 11px;
+    margin-left: 7px;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    margin-right: 80px;
+}
